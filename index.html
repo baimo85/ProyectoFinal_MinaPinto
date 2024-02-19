@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="./img/dinero.jpeg"> 
+    <title>SimulaTuCrédito</title>
+</head>
+<body>
+
+<h1>¡Bienvenido a SimulaTuCrédito!</h1>
+
+<div class="cuantones">
+    <label for="montoInput">¿Cuanto necesitas?</label>
+    <br>
+    <input type="number" id="montoInput" placeholder="Cantidad">
+</div>
+
+<div class="cuantomes">
+    <label for="cuotasInput">¿En cuántos meses lo quieres pagar?</label>
+    <br>
+    <input type="number" id="cuotasInput" placeholder="Número de meses">
+</div>
+
+<div>
+    <button id="botonSimular">Simular</button>
+    <div id="resultadoCuotas"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
